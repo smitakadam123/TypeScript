@@ -1,7 +1,7 @@
 var My = (function () {
    function My() {
 
-console.log(`hi`)
+console.log(`hi....`)
 
     }
     return My;
