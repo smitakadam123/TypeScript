@@ -1,0 +1,6 @@
+class my {
+
+ name:String;
+
+
+}
