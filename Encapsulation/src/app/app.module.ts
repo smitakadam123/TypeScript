@@ -3,15 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
-import { HiComponent } from './hello/hi.component';
-import { DataBindingComponent } from './data-binding/data-binding.component';
+import { HiComponent } from './hi/hi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    HiComponent,
-    DataBindingComponent
+    HiComponent
   ],
   imports: [
     BrowserModule
