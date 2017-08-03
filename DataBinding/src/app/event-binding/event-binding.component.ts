@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
 
-  constructor() { }
+data;
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+  onOk()
+  // tslint:disable-next-line:one-line
+  {
+          this.data = 'This is event binding';
   }
 
 }
