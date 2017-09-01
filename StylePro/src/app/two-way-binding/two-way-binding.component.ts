@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
      Fullname: {{fname}} {{lname}}`
 })
 export class TwoWayBindingComponent {
-public title = 'Two Way DataBinding ';
+public title = 'Two Way DataBinding';
 public fname;
 public lname;
 
